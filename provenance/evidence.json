@@ -1,0 +1,314 @@
+[
+  {
+    "file": "results/h20-ngc2509-100/result.json",
+    "original_sha256": "118f6e5c0cec99878c0cf55379737ccb67328a5813e529f21454cd3e1f6d9bef",
+    "delivery_sha256": "54e05b88a24e3d1533c947883b77777de31fc7935d65df688b1d1a17e3f8db1b",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/status.json",
+    "original_sha256": "4162b28b1b4ac0caceba63a55933281a359a4fcc17a6d371aad38a076dda12b9",
+    "delivery_sha256": "f9daff74086309b03a555670b88be2600900554bdf573650c06a4eb3dce5401d",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/summary.json",
+    "original_sha256": "e225a8813575fa32b9fdae7a72d7842d3f0e5aecd6f62d8387b991622af5e7de",
+    "delivery_sha256": "8e8cde2997f8e8c31fb7c328448acbb01d149d52515aa8806f8dd19b7296e0bf",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/command.sh",
+    "original_sha256": "475f1808f6ab4c6e55abde8ff137718d7c8339be7f4cd04cc9e5f20516e0cc5f",
+    "delivery_sha256": "475f1808f6ab4c6e55abde8ff137718d7c8339be7f4cd04cc9e5f20516e0cc5f",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/actual.rank0.json",
+    "original_sha256": "3abb5522fb7d1856517a3205bb5959d48b4912b0d46188f0ce4b90fb899f01a4",
+    "delivery_sha256": "a264f714df9f8f4d5d15aa48c15cf7ca6964241e607c1049906f4cfaba2e4df3",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/config.rank0.yaml",
+    "original_sha256": "699799ec78c37474535aace9995f68b617c1a04013d4b79e28341258e2dc503e",
+    "delivery_sha256": "699799ec78c37474535aace9995f68b617c1a04013d4b79e28341258e2dc503e",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/steps.rank0.json",
+    "original_sha256": "c964620cd2cad946994107085637a33011329a258abcdc405498475595e59829",
+    "delivery_sha256": "dd6d38acbd88939b480a78ed17ff530a89bd6035839bd7c6f6cd7c18467b5a9b",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/window.rank0.json",
+    "original_sha256": "24202e1fda88820ab49e98b678c072fab7fa1d982620f632bea2c6547241f37a",
+    "delivery_sha256": "881f797b5f0d1bcd699472639438c2647132700eac2eeba37ad9418d8b6c4cf2",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/input-shapes.rank0.json",
+    "original_sha256": "40d40206ddef413d74f82de62224d8422a21d6c0cac542c3f53dd8d4e63be449",
+    "delivery_sha256": "32a26fa64b266c9ac850c5ebb1798d60a30c1faa43bbba190ae107b5212c8026",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/rank0.log",
+    "original_sha256": "6e673a3c7749311b912f7115f9a36e15fe85015b0d3958105d96a40058f56eb9",
+    "delivery_sha256": "6e673a3c7749311b912f7115f9a36e15fe85015b0d3958105d96a40058f56eb9",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/actual.rank1.json",
+    "original_sha256": "f0ce55b8056bb7b8e7fd486b81c838574c59058142bf77d29b48cee8777ad78a",
+    "delivery_sha256": "66d48404a708717ac7e90a9a30223c28ef79f9273cc8e9d135e433fb433a6318",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/config.rank1.yaml",
+    "original_sha256": "699799ec78c37474535aace9995f68b617c1a04013d4b79e28341258e2dc503e",
+    "delivery_sha256": "699799ec78c37474535aace9995f68b617c1a04013d4b79e28341258e2dc503e",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/steps.rank1.json",
+    "original_sha256": "88813c9e137c7c2a5ac498929cfa7e53778f6ca637d6ceba03ab78d89b6cf4a5",
+    "delivery_sha256": "1043addaab3621d47d2a5a188148b63d636f912b15bc3fa8bd731b943bae1bcf",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/window.rank1.json",
+    "original_sha256": "9abd7815bdeee3f12b0b70e3b13f166b6fa22251e52f47df72d9a1d66a4bd0aa",
+    "delivery_sha256": "e8a19b7a1ddba43beca95dc216b56062586664c4e13cd96d178af5f502f97021",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/input-shapes.rank1.json",
+    "original_sha256": "40d40206ddef413d74f82de62224d8422a21d6c0cac542c3f53dd8d4e63be449",
+    "delivery_sha256": "32a26fa64b266c9ac850c5ebb1798d60a30c1faa43bbba190ae107b5212c8026",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/rank1.log",
+    "original_sha256": "7687cf98fb3292d5f987202c58964d9e48ce59538923370efbeade41ea2fdab4",
+    "delivery_sha256": "7687cf98fb3292d5f987202c58964d9e48ce59538923370efbeade41ea2fdab4",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/actual.rank2.json",
+    "original_sha256": "736b066556c43ee95cf26fd4a9bed85c733183a7f94315819ddfda63a4af6138",
+    "delivery_sha256": "84599f983c726e89ba5cf6218ce29da0f133ecf0fd1396b4c4fb915ff29f3dd7",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/config.rank2.yaml",
+    "original_sha256": "699799ec78c37474535aace9995f68b617c1a04013d4b79e28341258e2dc503e",
+    "delivery_sha256": "699799ec78c37474535aace9995f68b617c1a04013d4b79e28341258e2dc503e",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/steps.rank2.json",
+    "original_sha256": "2043b2ecf4297ea43a77063b35fb7c829eefe4d7a9a5faf1970b7fcf7a01e8a4",
+    "delivery_sha256": "a73ccbc0fe8a1fba3cd50c2adf7c780596b1439e8aa5fbcc0e8b2228f403c109",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/window.rank2.json",
+    "original_sha256": "15c8246bda114bb0cb77364fd24934dc6a2776da865e5a3425974f1c870373b0",
+    "delivery_sha256": "30aec46834346997d32bf61a0fa51587eba2a9792897cb3d92e82e0331866199",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/input-shapes.rank2.json",
+    "original_sha256": "40d40206ddef413d74f82de62224d8422a21d6c0cac542c3f53dd8d4e63be449",
+    "delivery_sha256": "32a26fa64b266c9ac850c5ebb1798d60a30c1faa43bbba190ae107b5212c8026",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/rank2.log",
+    "original_sha256": "f37b629eed7763532400c4ad93a08311ba9c0bf3e1adf41c9a9f60329d045f86",
+    "delivery_sha256": "f37b629eed7763532400c4ad93a08311ba9c0bf3e1adf41c9a9f60329d045f86",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/actual.rank3.json",
+    "original_sha256": "604baefb41c13c761307a4da1f04221baeb28ddd38d7f8af3a9c0b8aead9b643",
+    "delivery_sha256": "534bd4a37f68e893ad551561cc22130046c597733da6fb36361902a5386b36c8",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/config.rank3.yaml",
+    "original_sha256": "699799ec78c37474535aace9995f68b617c1a04013d4b79e28341258e2dc503e",
+    "delivery_sha256": "699799ec78c37474535aace9995f68b617c1a04013d4b79e28341258e2dc503e",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/steps.rank3.json",
+    "original_sha256": "2d0cf5b16ee58dc404d504574be152ad09f8f56d5f63ac50693267b76e484f99",
+    "delivery_sha256": "62077f0800b19476b6df18308a020b9e9c230a147cef630e767addf1d5f2c21e",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/window.rank3.json",
+    "original_sha256": "cfdaf50b558a3ad1bafcb9510bf6709cff0721d501b976c3d9a135f0feb93063",
+    "delivery_sha256": "afa01223585f5a4d5a978534f222d39e99f1674fa6c7c6d7864dd5069ef562fe",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/input-shapes.rank3.json",
+    "original_sha256": "40d40206ddef413d74f82de62224d8422a21d6c0cac542c3f53dd8d4e63be449",
+    "delivery_sha256": "32a26fa64b266c9ac850c5ebb1798d60a30c1faa43bbba190ae107b5212c8026",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/rank3.log",
+    "original_sha256": "9653dcc95be6ee164d892b15d944a8d3b73e242f3527a0b0133301fb9a3e3f09",
+    "delivery_sha256": "9653dcc95be6ee164d892b15d944a8d3b73e242f3527a0b0133301fb9a3e3f09",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/actual.rank4.json",
+    "original_sha256": "453ad198e6c94d43e3a513454455e39a59c65114167cb827f8dacb1695199d51",
+    "delivery_sha256": "d082fc7f40c0566628963895dca66bd707d88a27719d3fc97f427a0acb6f4842",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/config.rank4.yaml",
+    "original_sha256": "699799ec78c37474535aace9995f68b617c1a04013d4b79e28341258e2dc503e",
+    "delivery_sha256": "699799ec78c37474535aace9995f68b617c1a04013d4b79e28341258e2dc503e",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/steps.rank4.json",
+    "original_sha256": "04d273355f785e063a833407ed89b7c42301fd958bc3545e820051c560c96168",
+    "delivery_sha256": "566a7dd15053d5efe2a3efd4b42e8143505a31865ee0d837468c71bba79418c2",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/window.rank4.json",
+    "original_sha256": "cf263cee4926bd8ec856c151b5e8670094463eda64edd6a2085db545a4e38862",
+    "delivery_sha256": "6f8e013035ccbcacd2f50f979060ac39bf9e894b829ff372f599eba2e1123969",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/input-shapes.rank4.json",
+    "original_sha256": "40d40206ddef413d74f82de62224d8422a21d6c0cac542c3f53dd8d4e63be449",
+    "delivery_sha256": "32a26fa64b266c9ac850c5ebb1798d60a30c1faa43bbba190ae107b5212c8026",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/rank4.log",
+    "original_sha256": "c97e790e66d1b5151fbffa34cbb57518727e0ad16b2abb126191e83109282e38",
+    "delivery_sha256": "c97e790e66d1b5151fbffa34cbb57518727e0ad16b2abb126191e83109282e38",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/actual.rank5.json",
+    "original_sha256": "85a74a8ca7f0d3c743fcf9a4c18d8b4c5e5bc3d320762f3598cfc504822ddac5",
+    "delivery_sha256": "259b3d898cad2b646c34b570726534b644bfdf1306da82ba40185eee79137f2c",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/config.rank5.yaml",
+    "original_sha256": "699799ec78c37474535aace9995f68b617c1a04013d4b79e28341258e2dc503e",
+    "delivery_sha256": "699799ec78c37474535aace9995f68b617c1a04013d4b79e28341258e2dc503e",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/steps.rank5.json",
+    "original_sha256": "9d6aa42d40025bbb614f1b00537ba428ccefa0701f7aeaac9836fbd2cda82704",
+    "delivery_sha256": "069b0a9bd9fd2a2862c6a812e741ccf93c30284658a24c9c51c9e39301b939ec",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/window.rank5.json",
+    "original_sha256": "3ef28ec2db5a287e650a4e33e48fabea07ffb3ad5fc24d265ab1ad345cd08bd5",
+    "delivery_sha256": "ba02230f73e24eb05d554b0e10a1a05a27a3b1fa3f2b716f5a0fe874a5c1e8e3",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/input-shapes.rank5.json",
+    "original_sha256": "40d40206ddef413d74f82de62224d8422a21d6c0cac542c3f53dd8d4e63be449",
+    "delivery_sha256": "32a26fa64b266c9ac850c5ebb1798d60a30c1faa43bbba190ae107b5212c8026",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/rank5.log",
+    "original_sha256": "e9daf7f6b31f7e613737ac64181450d5038e6155dd1543a85a233954ee421348",
+    "delivery_sha256": "e9daf7f6b31f7e613737ac64181450d5038e6155dd1543a85a233954ee421348",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/actual.rank6.json",
+    "original_sha256": "043995f6c471efb2629b53104152e1067271d8dca39d3ad87452c66afef48526",
+    "delivery_sha256": "aa159126b481a47b6cd3fa4f254705e71a4d188ad66b2a67559198065792cd8b",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/config.rank6.yaml",
+    "original_sha256": "699799ec78c37474535aace9995f68b617c1a04013d4b79e28341258e2dc503e",
+    "delivery_sha256": "699799ec78c37474535aace9995f68b617c1a04013d4b79e28341258e2dc503e",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/steps.rank6.json",
+    "original_sha256": "29673093988aa457dd3c0a22e8eaf48e2d79a9bddac7af26db86e993645d4e39",
+    "delivery_sha256": "cf6e622c04edb26dd5a46a062d2485312451a5163b70aaf547e5eb347d98bd3f",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/window.rank6.json",
+    "original_sha256": "a14d82b6da6f3346198239058f7fb4d8775913b494ecb77a10275a5dfddce336",
+    "delivery_sha256": "ae1d18053337a2ea65416817d54cb9062feb6122bab05b2d13fc1add73631dd2",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/input-shapes.rank6.json",
+    "original_sha256": "40d40206ddef413d74f82de62224d8422a21d6c0cac542c3f53dd8d4e63be449",
+    "delivery_sha256": "32a26fa64b266c9ac850c5ebb1798d60a30c1faa43bbba190ae107b5212c8026",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/rank6.log",
+    "original_sha256": "b293a350a151dd8ea3be089a065a50a9f9fc5b2c1a9680993cf3d5a3e5982b3e",
+    "delivery_sha256": "b293a350a151dd8ea3be089a065a50a9f9fc5b2c1a9680993cf3d5a3e5982b3e",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/actual.rank7.json",
+    "original_sha256": "8d38b1822703d7d6cbce12b275e4f4fae62b0e4784b87b17a3be6442beb881ec",
+    "delivery_sha256": "5685556db2c07545c57db59dbbf349d0eed7b19f75e51516146897c9fc99ada4",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/config.rank7.yaml",
+    "original_sha256": "699799ec78c37474535aace9995f68b617c1a04013d4b79e28341258e2dc503e",
+    "delivery_sha256": "699799ec78c37474535aace9995f68b617c1a04013d4b79e28341258e2dc503e",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/steps.rank7.json",
+    "original_sha256": "f8ef0196383b5918337462fcbe18a49b2bba7eb7d4534cea0e5605c64af636ca",
+    "delivery_sha256": "f084639110b7b93e0ccf9025f549c0bf3633317e7d08f21c3f96df6b170e8ace",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/window.rank7.json",
+    "original_sha256": "d6f7300dc1980e1a5a2434318b9d1e1f8c3e6cb4171fbb6c96a37d0a4a98a460",
+    "delivery_sha256": "f2ef054c3ccac9439e110c616dd8a3ecdd1c4c8bdee49d99794db2b88a8736c0",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/input-shapes.rank7.json",
+    "original_sha256": "40d40206ddef413d74f82de62224d8422a21d6c0cac542c3f53dd8d4e63be449",
+    "delivery_sha256": "32a26fa64b266c9ac850c5ebb1798d60a30c1faa43bbba190ae107b5212c8026",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  },
+  {
+    "file": "results/h20-ngc2509-100/rank7.log",
+    "original_sha256": "b7f963659eeaae18c99ca33230490faa4de0da4450a97b32f7660e1d5a947b57",
+    "delivery_sha256": "b7f963659eeaae18c99ca33230490faa4de0da4450a97b32f7660e1d5a947b57",
+    "transformation": "path/host redaction; JSON normalization and Infinity-to-string when applicable"
+  }
+]

@@ -1,0 +1,114 @@
+{
+  "parameter_dtypes": [
+    "torch.bfloat16"
+  ],
+  "master_partition_dtypes": [
+    "torch.float32"
+  ],
+  "log_every": 1,
+  "trainer_logger_enabled": true,
+  "engine_class": "DeepSpeedEngine",
+  "distributed_backend": "nccl",
+  "actual_bf16": true,
+  "actual_zero": 1,
+  "actual_micro_batch": 8,
+  "actual_accumulation": 1,
+  "actual_global_batch": 64,
+  "initial_parameter_sample_sha256": "c79a93d85e26f94a48c82f7b96769c8b54f29139b137898cab42d80939c866c3",
+  "rank": 0,
+  "trainer_batch": 8,
+  "world": 8,
+  "optimizer_groups": [
+    {
+      "lr": 2e-05,
+      "betas": [
+        0.9,
+        0.95
+      ],
+      "eps": 1e-08,
+      "weight_decay": 0.01,
+      "amsgrad": false,
+      "maximize": false,
+      "foreach": null,
+      "capturable": false,
+      "differentiable": false,
+      "fused": null,
+      "decoupled_weight_decay": true,
+      "initial_lr": 0.0001
+    }
+  ],
+  "scheduler_horizon": 100,
+  "lr_warmup": 5,
+  "scheduler": {
+    "_milestones": [
+      5
+    ],
+    "last_epoch": 0,
+    "_last_lr": [
+      2e-05
+    ],
+    "_schedulers": [
+      {
+        "start_factor": 0.2,
+        "end_factor": 1.0,
+        "total_iters": 5,
+        "base_lrs": [
+          0.0001
+        ],
+        "last_epoch": 0,
+        "_step_count": 1,
+        "_is_initial": false,
+        "_get_lr_called_within_step": false,
+        "_last_lr": [
+          2e-05
+        ]
+      },
+      {
+        "T_max": 95,
+        "eta_min": 1.0000000000000002e-06,
+        "base_lrs": [
+          0.0001
+        ],
+        "last_epoch": -1,
+        "_step_count": 1,
+        "_is_initial": false,
+        "_get_lr_called_within_step": false,
+        "_last_lr": [
+          0.0001
+        ]
+      }
+    ]
+  },
+  "trainable_numel": 6020710599,
+  "deepspeed": {
+    "train_batch_size": 64,
+    "train_micro_batch_size_per_gpu": 8,
+    "gradient_accumulation_steps": 1,
+    "zero_optimization": {
+      "stage": 1,
+      "offload_optimizer": {
+        "device": "none"
+      },
+      "offload_param": {
+        "device": "none"
+      },
+      "overlap_comm": false,
+      "contiguous_gradients": false,
+      "reduce_bucket_size": 200000000.0,
+      "allgather_bucket_size": 200000000.0
+    },
+    "steps_per_print": "Infinity",
+    "bf16": {
+      "enabled": true
+    },
+    "fp16": {
+      "enabled": false
+    },
+    "zero_allow_untested_optimizer": true
+  },
+  "DP": 8,
+  "TP": 1,
+  "PP": 1,
+  "compiled_denoise": false,
+  "vae_mode": "eager"
+}

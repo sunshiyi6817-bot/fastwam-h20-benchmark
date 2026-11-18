@@ -1,0 +1,8 @@
+.git
+runs
+assets
+.venv
+env
+__pycache__
+results
+provenance

@@ -1,0 +1,2 @@
+torch==2.9.0a0+50eac811a6.nv25.9
+torchvision==0.24.0a0+98f8b375

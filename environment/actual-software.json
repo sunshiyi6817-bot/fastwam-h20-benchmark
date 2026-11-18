@@ -1,0 +1,15 @@
+{
+  "python": "3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]",
+  "torch_runtime": "2.9.0a0+50eac811a6.nv25.09",
+  "torch_distribution": "2.9.0a0+50eac811a6.nv25.9",
+  "torch_path": "/usr/local/lib/python3.12/dist-packages/torch/__init__.py",
+  "torchvision": "0.24.0a0+98f8b375",
+  "cuda": "13.0",
+  "nccl": [
+    2,
+    27,
+    7
+  ],
+  "accelerate": "1.15.0",
+  "deepspeed": "0.19.3"
+}

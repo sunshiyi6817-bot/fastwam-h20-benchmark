@@ -1,0 +1,14 @@
+{
+  "files_scanned": 172,
+  "bytes_scanned": 1226348,
+  "findings": [],
+  "reviewed_false_positive": "TensorRT dotted version in runtime-distributions.json is a package version, not a server address",
+  "source_snapshot_hashes_verified": 99,
+  "historical_reference_hashes_verified": 4,
+  "python_syntax_files": 71,
+  "shell_syntax": "passed",
+  "historical_result_rank_steps": 800,
+  "docker_build_tested": false,
+  "training_rerun": false,
+  "scope": "Heuristic scan only. Manual license and publication authorization still required. No Git commit or push performed."
+}

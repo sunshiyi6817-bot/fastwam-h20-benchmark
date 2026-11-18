@@ -1,0 +1,29 @@
+{
+  "valid": true,
+  "warmup_steps": 10,
+  "measured_steps": 90,
+  "samples": 5760,
+  "window_s": 130.8901006858796,
+  "samples_per_s": 44.00638375107758,
+  "s_per_optimizer_step": 1.4543344520653287,
+  "max_allocated_gib": 41.84888982772827,
+  "max_reserved_gib": 49.205078125,
+  "image": "nvcr.io/nvidia/pytorch:25.09-py3",
+  "image_digest": "sha256:f3b4a33fd60d5e0358287bb44d57e91eda45e8f1681fef1bfd6c969371417130",
+  "runtime": {
+    "python": "3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]",
+    "torch_runtime": "2.9.0a0+50eac811a6.nv25.09",
+    "torch_distribution": "2.9.0a0+50eac811a6.nv25.9",
+    "torch_path": "/usr/local/lib/python3.12/dist-packages/torch/__init__.py",
+    "torchvision": "0.24.0a0+98f8b375",
+    "cuda": "13.0",
+    "nccl": [
+      2,
+      27,
+      7
+    ],
+    "accelerate": "1.15.0",
+    "deepspeed": "0.19.3"
+  },
+  "blocked_attempt_directory": "/aligned/runs/h20_nvcr2509_b8_gbs64_100_20261118T102537"
+}

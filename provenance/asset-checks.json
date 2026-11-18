@@ -1,0 +1,10 @@
+{
+  "prepared/dataset_stats.json": {
+    "sha256": "085e60b601b39ec3982de170226e36bbe74fcd8ae1b9eee46a8da617bed1c24d",
+    "size": 40948
+  },
+  "official-b8-20261113/ActionDiT_cpu_bf16_alpha.pt": {
+    "reference_sha256": "ec43a97d99a8929294ee29894933ef9f48373100159871dbfc9a7cd815242f12",
+    "rehash_this_delivery": false
+  }
+}

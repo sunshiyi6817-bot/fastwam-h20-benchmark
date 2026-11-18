@@ -1,0 +1,47 @@
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+Downloading data:   0%|          | 0/433 [00:00<?, ?files/s]Downloading data: 100%|██████████| 433/433 [00:00<00:00, 29570.05files/s]
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 7450 examples [00:00, 72630.58 examples/s]Generating train split: 16479 examples [00:00, 81822.35 examples/s]Generating train split: 27073 examples [00:00, 62910.95 examples/s]Generating train split: 34928 examples [00:00, 58099.59 examples/s]Generating train split: 42652 examples [00:00, 62906.97 examples/s]Generating train split: 50769 examples [00:00, 59250.93 examples/s]Generating train split: 52895 examples [00:00, 61008.60 examples/s]
+Downloading data:   0%|          | 0/388 [00:00<?, ?files/s]Downloading data: 100%|██████████| 388/388 [00:00<00:00, 33760.48files/s]
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 15625 examples [00:00, 153507.78 examples/s]Generating train split: 34063 examples [00:00, 169935.82 examples/s]Generating train split: 53405 examples [00:00, 179624.55 examples/s]Generating train split: 79232 examples [00:00, 175143.25 examples/s]Generating train split: 101898 examples [00:00, 163627.03 examples/s]Generating train split: 104280 examples [00:00, 165231.01 examples/s]
+11/18 [10:27:54] INFO     | >> x86_64-linux-gnu-gcc                  spawn.py:77
+                          -fno-strict-overflow -Wsign-compare                   
+                          -DNDEBUG -g -O2 -Wall -fPIC -c                        
+                          /tmp/tmpsmppwi5s/test.c -o                            
+                          /tmp/tmpsmppwi5s/test.o                               
+                 INFO     | >> x86_64-linux-gnu-gcc                  spawn.py:77
+                          /tmp/tmpsmppwi5s/test.o -laio -o                      
+                          /tmp/tmpsmppwi5s/a.out                                
+                 INFO     | >> x86_64-linux-gnu-gcc                  spawn.py:77
+                          -fno-strict-overflow -Wsign-compare                   
+                          -DNDEBUG -g -O2 -Wall -fPIC -c                        
+                          /tmp/tmpo114sydg/test.c -o                            
+                          /tmp/tmpo114sydg/test.o                               
+                 INFO     | >> x86_64-linux-gnu-gcc                  spawn.py:77
+                          /tmp/tmpo114sydg/test.o -L/usr/local/cuda             
+                          -L/usr/local/cuda/lib64 -lcufile -o                   
+                          /tmp/tmpo114sydg/a.out                                
+                 INFO     | >> x86_64-linux-gnu-gcc                  spawn.py:77
+                          -fno-strict-overflow -Wsign-compare                   
+                          -DNDEBUG -g -O2 -Wall -fPIC -c                        
+                          /tmp/tmpmt7ve8a6/test.c -o                            
+                          /tmp/tmpmt7ve8a6/test.o                               
+                 INFO     | >> x86_64-linux-gnu-gcc                  spawn.py:77
+                          /tmp/tmpmt7ve8a6/test.o -laio -o                      
+                          /tmp/tmpmt7ve8a6/a.out                                
+/usr/local/lib/python3.12/dist-packages/torchvision/io/_video_deprecation_warning.py:9: UserWarning: The video decoding and encoding capabilities of torchvision are deprecated from version 0.22 and will be removed in version 0.24. We recommend that you migrate to TorchCodec, where we'll consolidate the future decoding/encoding capabilities of PyTorch: https://github.com/pytorch/torchcodec
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/torchvision/io/_video_deprecation_warning.py:9: UserWarning: The video decoding and encoding capabilities of torchvision are deprecated from version 0.22 and will be removed in version 0.24. We recommend that you migrate to TorchCodec, where we'll consolidate the future decoding/encoding capabilities of PyTorch: https://github.com/pytorch/torchcodec
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/torchvision/io/_video_deprecation_warning.py:9: UserWarning: The video decoding and encoding capabilities of torchvision are deprecated from version 0.22 and will be removed in version 0.24. We recommend that you migrate to TorchCodec, where we'll consolidate the future decoding/encoding capabilities of PyTorch: https://github.com/pytorch/torchcodec
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/torchvision/io/_video_deprecation_warning.py:9: UserWarning: The video decoding and encoding capabilities of torchvision are deprecated from version 0.22 and will be removed in version 0.24. We recommend that you migrate to TorchCodec, where we'll consolidate the future decoding/encoding capabilities of PyTorch: https://github.com/pytorch/torchcodec
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/torchvision/io/_video_deprecation_warning.py:9: UserWarning: The video decoding and encoding capabilities of torchvision are deprecated from version 0.22 and will be removed in version 0.24. We recommend that you migrate to TorchCodec, where we'll consolidate the future decoding/encoding capabilities of PyTorch: https://github.com/pytorch/torchcodec
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/torchvision/io/_video_deprecation_warning.py:9: UserWarning: The video decoding and encoding capabilities of torchvision are deprecated from version 0.22 and will be removed in version 0.24. We recommend that you migrate to TorchCodec, where we'll consolidate the future decoding/encoding capabilities of PyTorch: https://github.com/pytorch/torchcodec
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/torchvision/io/_video_deprecation_warning.py:9: UserWarning: The video decoding and encoding capabilities of torchvision are deprecated from version 0.22 and will be removed in version 0.24. We recommend that you migrate to TorchCodec, where we'll consolidate the future decoding/encoding capabilities of PyTorch: https://github.com/pytorch/torchcodec
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/torchvision/io/_video_deprecation_warning.py:9: UserWarning: The video decoding and encoding capabilities of torchvision are deprecated from version 0.22 and will be removed in version 0.24. We recommend that you migrate to TorchCodec, where we'll consolidate the future decoding/encoding capabilities of PyTorch: https://github.com/pytorch/torchcodec
+  warnings.warn(

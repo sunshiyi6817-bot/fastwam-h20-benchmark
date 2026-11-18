@@ -1,0 +1,476 @@
+/usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+11/18 [10:26:43] INFO     | >> Loading Wan2.2-TI2V-5B              loader.py:152
+                          components...                                         
+11/18 [10:27:31] INFO     | >> Skipping pretrained text            loader.py:206
+                          encoder/tokenizer load                                
+                          (`load_text_encoder=False`); training                 
+                          must provide cached                                   
+                          `context/context_mask`.                               
+11/18 [10:27:37] INFO     | >> Finished loading Wan2.2-TI2V-5B     loader.py:211
+                          components in 53.93 seconds.                          
+11/18 [10:27:44] INFO     | >> ActionDiT backbone payload      action_dit.py:162
+                          policy: {'skip_prefixes':                             
+                          ['action_encoder.', 'head.'],                         
+                          'alpha_scaling': True,                                
+                          'interpolation':                                      
+                          'sequential_1d_linear_align_corners_                  
+                          true'}                                                
+11/18 [10:27:45] INFO     | >> Loaded ActionDiT backbone from  action_dit.py:226
+                          /assets/official-b8-20261113/ActionD                  
+                          iT_cpu_bf16_alpha.pt (keys=820;                       
+                          random_kept_prefixes=['action_encode                  
+                          r.', 'head.']).                                       
+                 INFO     | >> Initialized MoT with experts: ['video', mot.py:64
+                          'action'], num_layers=30                              
+                 INFO     | >>   Expert 'video': num_params=5.00 B     mot.py:67
+                 INFO     | >>   Expert 'action': num_params=1.02 B    mot.py:67
+11/18 [10:27:52] INFO     | >> Using dataset stats:   robot_video_dataset.py:115
+                          /assets/prepared/dataset_st                           
+                          ats.json                                              
+11/18 [10:27:54] INFO     | >> x86_64-linux-gnu-gcc                  spawn.py:77
+                          -fno-strict-overflow -Wsign-compare                   
+                          -DNDEBUG -g -O2 -Wall -fPIC -c                        
+                          /tmp/tmplcdyjasv/test.c -o                            
+                          /tmp/tmplcdyjasv/test.o                               
+                 INFO     | >> x86_64-linux-gnu-gcc                  spawn.py:77
+                          /tmp/tmplcdyjasv/test.o -laio -o                      
+                          /tmp/tmplcdyjasv/a.out                                
+                 INFO     | >> x86_64-linux-gnu-gcc                  spawn.py:77
+                          -fno-strict-overflow -Wsign-compare                   
+                          -DNDEBUG -g -O2 -Wall -fPIC -c                        
+                          /tmp/tmpo4kuxiw1/test.c -o                            
+                          /tmp/tmpo4kuxiw1/test.o                               
+                 INFO     | >> x86_64-linux-gnu-gcc                  spawn.py:77
+                          /tmp/tmpo4kuxiw1/test.o -L/usr/local/cuda             
+                          -L/usr/local/cuda/lib64 -lcufile -o                   
+                          /tmp/tmpo4kuxiw1/a.out                                
+                 INFO     | >> x86_64-linux-gnu-gcc                  spawn.py:77
+                          -fno-strict-overflow -Wsign-compare                   
+                          -DNDEBUG -g -O2 -Wall -fPIC -c                        
+                          /tmp/tmpmun8nrfb/test.c -o                            
+                          /tmp/tmpmun8nrfb/test.o                               
+                 INFO     | >> x86_64-linux-gnu-gcc                  spawn.py:77
+                          /tmp/tmpmun8nrfb/test.o -laio -o                      
+                          /tmp/tmpmun8nrfb/a.out                                
+11/18 [10:28:05] INFO     | >> Setting DiT to train mode and      trainer.py:305
+                          freezing other model components.                      
+                 INFO     | >> Starting training with             trainer.py:678
+                          max_steps=100.                                        
+/usr/local/lib/python3.12/dist-packages/torchvision/io/_video_deprecation_warning.py:9: UserWarning: The video decoding and encoding capabilities of torchvision are deprecated from version 0.22 and will be removed in version 0.24. We recommend that you migrate to TorchCodec, where we'll consolidate the future decoding/encoding capabilities of PyTorch: https://github.com/pytorch/torchcodec
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/torchvision/io/_video_deprecation_warning.py:9: UserWarning: The video decoding and encoding capabilities of torchvision are deprecated from version 0.22 and will be removed in version 0.24. We recommend that you migrate to TorchCodec, where we'll consolidate the future decoding/encoding capabilities of PyTorch: https://github.com/pytorch/torchcodec
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/torchvision/io/_video_deprecation_warning.py:9: UserWarning: The video decoding and encoding capabilities of torchvision are deprecated from version 0.22 and will be removed in version 0.24. We recommend that you migrate to TorchCodec, where we'll consolidate the future decoding/encoding capabilities of PyTorch: https://github.com/pytorch/torchcodec
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/torchvision/io/_video_deprecation_warning.py:9: UserWarning: The video decoding and encoding capabilities of torchvision are deprecated from version 0.22 and will be removed in version 0.24. We recommend that you migrate to TorchCodec, where we'll consolidate the future decoding/encoding capabilities of PyTorch: https://github.com/pytorch/torchcodec
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/torchvision/io/_video_deprecation_warning.py:9: UserWarning: The video decoding and encoding capabilities of torchvision are deprecated from version 0.22 and will be removed in version 0.24. We recommend that you migrate to TorchCodec, where we'll consolidate the future decoding/encoding capabilities of PyTorch: https://github.com/pytorch/torchcodec
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/torchvision/io/_video_deprecation_warning.py:9: UserWarning: The video decoding and encoding capabilities of torchvision are deprecated from version 0.22 and will be removed in version 0.24. We recommend that you migrate to TorchCodec, where we'll consolidate the future decoding/encoding capabilities of PyTorch: https://github.com/pytorch/torchcodec
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/torchvision/io/_video_deprecation_warning.py:9: UserWarning: The video decoding and encoding capabilities of torchvision are deprecated from version 0.22 and will be removed in version 0.24. We recommend that you migrate to TorchCodec, where we'll consolidate the future decoding/encoding capabilities of PyTorch: https://github.com/pytorch/torchcodec
+  warnings.warn(
+/usr/local/lib/python3.12/dist-packages/torchvision/io/_video_deprecation_warning.py:9: UserWarning: The video decoding and encoding capabilities of torchvision are deprecated from version 0.22 and will be removed in version 0.24. We recommend that you migrate to TorchCodec, where we'll consolidate the future decoding/encoding capabilities of PyTorch: https://github.com/pytorch/torchcodec
+  warnings.warn(
+11/18 [10:28:24] INFO     | >>  epoch=0 step=1/100 loss=1.9336    trainer.py:745
+                          loss_action=1.4290 loss_video=0.5046                  
+                          lr=3.60e-05 speed=0.05 step/s, 3.35                   
+                          samples/s eta=00:31:29                                
+11/18 [10:28:25] INFO     | >>  epoch=0 step=2/100 loss=1.6824    trainer.py:745
+                          loss_action=1.3071 loss_video=0.3752                  
+                          lr=5.20e-05 speed=0.10 step/s, 6.22                   
+                          samples/s eta=00:16:47                                
+11/18 [10:28:27] INFO     | >>  epoch=0 step=3/100 loss=1.2210    trainer.py:745
+                          loss_action=0.8786 loss_video=0.3424                  
+                          lr=6.80e-05 speed=0.14 step/s, 8.72                   
+                          samples/s eta=00:11:52                                
+11/18 [10:28:29] INFO     | >>  epoch=0 step=4/100 loss=1.9688    trainer.py:745
+                          loss_action=1.6406 loss_video=0.3282                  
+                          lr=8.40e-05 speed=0.17 step/s, 10.73                  
+                          samples/s eta=00:09:32                                
+11/18 [10:28:30] INFO     | >>  epoch=0 step=5/100 loss=1.2100    trainer.py:745
+                          loss_action=0.8688 loss_video=0.3412                  
+                          lr=1.00e-04 speed=0.20 step/s, 12.65                  
+                          samples/s eta=00:08:00                                
+11/18 [10:28:32] INFO     | >>  epoch=0 step=6/100 loss=2.1965    trainer.py:745
+                          loss_action=1.8489 loss_video=0.3476                  
+                          lr=1.00e-04 speed=0.22 step/s, 14.36                  
+                          samples/s eta=00:06:59                                
+11/18 [10:28:33] INFO     | >>  epoch=0 step=7/100 loss=0.9341    trainer.py:745
+                          loss_action=0.5867 loss_video=0.3474                  
+                          lr=9.99e-05 speed=0.25 step/s, 15.86                  
+                          samples/s eta=00:06:15                                
+11/18 [10:28:35] INFO     | >>  epoch=0 step=8/100 loss=1.9056    trainer.py:745
+                          loss_action=1.5371 loss_video=0.3685                  
+                          lr=9.98e-05 speed=0.27 step/s, 17.17                  
+                          samples/s eta=00:05:42                                
+11/18 [10:28:36] INFO     | >>  epoch=0 step=9/100 loss=0.9530    trainer.py:745
+                          loss_action=0.6014 loss_video=0.3516                  
+                          lr=9.96e-05 speed=0.29 step/s, 18.42                  
+                          samples/s eta=00:05:16                                
+11/18 [10:28:38] INFO     | >>  epoch=0 step=10/100 loss=1.1377   trainer.py:745
+                          loss_action=0.8821 loss_video=0.2555                  
+                          lr=9.93e-05 speed=0.31 step/s, 19.56                  
+                          samples/s eta=00:04:54                                
+11/18 [10:28:39] INFO     | >>  epoch=0 step=11/100 loss=1.0454   trainer.py:745
+                          loss_action=0.7255 loss_video=0.3200                  
+                          lr=9.90e-05 speed=0.32 step/s, 20.60                  
+                          samples/s eta=00:04:36                                
+11/18 [10:28:40] INFO     | >>  epoch=0 step=12/100 loss=1.7587   trainer.py:745
+                          loss_action=1.4544 loss_video=0.3043                  
+                          lr=9.87e-05 speed=0.34 step/s, 21.51                  
+                          samples/s eta=00:04:21                                
+11/18 [10:28:42] INFO     | >>  epoch=0 step=13/100 loss=0.9050   trainer.py:745
+                          loss_action=0.5902 loss_video=0.3148                  
+                          lr=9.83e-05 speed=0.35 step/s, 22.33                  
+                          samples/s eta=00:04:09                                
+11/18 [10:28:44] INFO     | >>  epoch=0 step=14/100 loss=1.2647   trainer.py:745
+                          loss_action=0.9262 loss_video=0.3385                  
+                          lr=9.78e-05 speed=0.36 step/s, 23.13                  
+                          samples/s eta=00:03:57                                
+11/18 [10:28:45] INFO     | >>  epoch=0 step=15/100 loss=0.8711   trainer.py:745
+                          loss_action=0.5568 loss_video=0.3143                  
+                          lr=9.73e-05 speed=0.37 step/s, 23.82                  
+                          samples/s eta=00:03:48                                
+11/18 [10:28:47] INFO     | >>  epoch=0 step=16/100 loss=0.9132   trainer.py:745
+                          loss_action=0.6012 loss_video=0.3120                  
+                          lr=9.68e-05 speed=0.38 step/s, 24.53                  
+                          samples/s eta=00:03:39                                
+11/18 [10:28:48] INFO     | >>  epoch=0 step=17/100 loss=0.7808   trainer.py:745
+                          loss_action=0.4412 loss_video=0.3396                  
+                          lr=9.62e-05 speed=0.39 step/s, 25.20                  
+                          samples/s eta=00:03:30                                
+11/18 [10:28:49] INFO     | >>  epoch=0 step=18/100 loss=0.8837   trainer.py:745
+                          loss_action=0.5685 loss_video=0.3152                  
+                          lr=9.55e-05 speed=0.40 step/s, 25.82                  
+                          samples/s eta=00:03:23                                
+11/18 [10:28:51] INFO     | >>  epoch=0 step=19/100 loss=0.7497   trainer.py:745
+                          loss_action=0.4604 loss_video=0.2893                  
+                          lr=9.48e-05 speed=0.41 step/s, 26.41                  
+                          samples/s eta=00:03:16                                
+11/18 [10:28:52] INFO     | >>  epoch=0 step=20/100 loss=0.8056   trainer.py:745
+                          loss_action=0.4808 loss_video=0.3249                  
+                          lr=9.40e-05 speed=0.42 step/s, 26.88                  
+                          samples/s eta=00:03:10                                
+11/18 [10:28:54] INFO     | >>  epoch=0 step=21/100 loss=0.7375   trainer.py:745
+                          loss_action=0.4427 loss_video=0.2948                  
+                          lr=9.32e-05 speed=0.43 step/s, 27.38                  
+                          samples/s eta=00:03:04                                
+11/18 [10:28:56] INFO     | >>  epoch=0 step=22/100 loss=0.6199   trainer.py:745
+                          loss_action=0.3768 loss_video=0.2431                  
+                          lr=9.24e-05 speed=0.43 step/s, 27.73                  
+                          samples/s eta=00:02:59                                
+11/18 [10:28:57] INFO     | >>  epoch=0 step=23/100 loss=0.6484   trainer.py:745
+                          loss_action=0.3759 loss_video=0.2725                  
+                          lr=9.15e-05 speed=0.44 step/s, 28.20                  
+                          samples/s eta=00:02:54                                
+11/18 [10:28:58] INFO     | >>  epoch=0 step=24/100 loss=0.6992   trainer.py:745
+                          loss_action=0.3945 loss_video=0.3047                  
+                          lr=9.05e-05 speed=0.45 step/s, 28.65                  
+                          samples/s eta=00:02:49                                
+11/18 [10:29:00] INFO     | >>  epoch=0 step=25/100 loss=0.6511   trainer.py:745
+                          loss_action=0.3635 loss_video=0.2876                  
+                          lr=8.96e-05 speed=0.45 step/s, 29.07                  
+                          samples/s eta=00:02:45                                
+11/18 [10:29:01] INFO     | >>  epoch=0 step=26/100 loss=0.6393   trainer.py:745
+                          loss_action=0.3412 loss_video=0.2981                  
+                          lr=8.85e-05 speed=0.46 step/s, 29.45                  
+                          samples/s eta=00:02:40                                
+11/18 [10:29:03] INFO     | >>  epoch=0 step=27/100 loss=0.6042   trainer.py:745
+                          loss_action=0.3725 loss_video=0.2318                  
+                          lr=8.75e-05 speed=0.47 step/s, 29.78                  
+                          samples/s eta=00:02:36                                
+11/18 [10:29:04] INFO     | >>  epoch=0 step=28/100 loss=0.5497   trainer.py:745
+                          loss_action=0.2759 loss_video=0.2738                  
+                          lr=8.64e-05 speed=0.47 step/s, 30.15                  
+                          samples/s eta=00:02:32                                
+11/18 [10:29:06] INFO     | >>  epoch=0 step=29/100 loss=0.5889   trainer.py:745
+                          loss_action=0.3229 loss_video=0.2660                  
+                          lr=8.52e-05 speed=0.48 step/s, 30.50                  
+                          samples/s eta=00:02:29                                
+11/18 [10:29:07] INFO     | >>  epoch=0 step=30/100 loss=0.5656   trainer.py:745
+                          loss_action=0.3221 loss_video=0.2436                  
+                          lr=8.40e-05 speed=0.48 step/s, 30.83                  
+                          samples/s eta=00:02:25                                
+11/18 [10:29:09] INFO     | >>  epoch=0 step=31/100 loss=0.6252   trainer.py:745
+                          loss_action=0.3651 loss_video=0.2601                  
+                          lr=8.28e-05 speed=0.49 step/s, 31.11                  
+                          samples/s eta=00:02:21                                
+11/18 [10:29:10] INFO     | >>  epoch=0 step=32/100 loss=0.5607   trainer.py:745
+                          loss_action=0.2787 loss_video=0.2820                  
+                          lr=8.15e-05 speed=0.49 step/s, 31.40                  
+                          samples/s eta=00:02:18                                
+11/18 [10:29:11] INFO     | >>  epoch=0 step=33/100 loss=0.5468   trainer.py:745
+                          loss_action=0.3330 loss_video=0.2138                  
+                          lr=8.03e-05 speed=0.50 step/s, 31.70                  
+                          samples/s eta=00:02:15                                
+11/18 [10:29:13] INFO     | >>  epoch=0 step=34/100 loss=0.6043   trainer.py:745
+                          loss_action=0.3513 loss_video=0.2530                  
+                          lr=7.89e-05 speed=0.50 step/s, 31.95                  
+                          samples/s eta=00:02:12                                
+11/18 [10:29:14] INFO     | >>  epoch=0 step=35/100 loss=0.5652   trainer.py:745
+                          loss_action=0.3105 loss_video=0.2547                  
+                          lr=7.76e-05 speed=0.50 step/s, 32.22                  
+                          samples/s eta=00:02:09                                
+11/18 [10:29:16] INFO     | >>  epoch=0 step=36/100 loss=0.5776   trainer.py:745
+                          loss_action=0.3357 loss_video=0.2419                  
+                          lr=7.62e-05 speed=0.51 step/s, 32.34                  
+                          samples/s eta=00:02:06                                
+11/18 [10:29:17] INFO     | >>  epoch=0 step=37/100 loss=0.5693   trainer.py:745
+                          loss_action=0.3095 loss_video=0.2598                  
+                          lr=7.48e-05 speed=0.51 step/s, 32.60                  
+                          samples/s eta=00:02:03                                
+11/18 [10:29:19] INFO     | >>  epoch=0 step=38/100 loss=0.4978   trainer.py:745
+                          loss_action=0.2618 loss_video=0.2360                  
+                          lr=7.33e-05 speed=0.51 step/s, 32.78                  
+                          samples/s eta=00:02:01                                
+11/18 [10:29:20] INFO     | >>  epoch=0 step=39/100 loss=0.5851   trainer.py:745
+                          loss_action=0.2976 loss_video=0.2875                  
+                          lr=7.19e-05 speed=0.52 step/s, 33.01                  
+                          samples/s eta=00:01:58                                
+11/18 [10:29:22] INFO     | >>  epoch=0 step=40/100 loss=0.5105   trainer.py:745
+                          loss_action=0.2762 loss_video=0.2343                  
+                          lr=7.04e-05 speed=0.52 step/s, 33.19                  
+                          samples/s eta=00:01:55                                
+11/18 [10:29:23] INFO     | >>  epoch=0 step=41/100 loss=0.5145   trainer.py:745
+                          loss_action=0.2463 loss_video=0.2682                  
+                          lr=6.89e-05 speed=0.52 step/s, 33.41                  
+                          samples/s eta=00:01:53                                
+11/18 [10:29:25] INFO     | >>  epoch=0 step=42/100 loss=0.5145   trainer.py:745
+                          loss_action=0.2910 loss_video=0.2235                  
+                          lr=6.73e-05 speed=0.53 step/s, 33.62                  
+                          samples/s eta=00:01:50                                
+11/18 [10:29:26] INFO     | >>  epoch=0 step=43/100 loss=0.5139   trainer.py:745
+                          loss_action=0.2621 loss_video=0.2518                  
+                          lr=6.58e-05 speed=0.53 step/s, 33.82                  
+                          samples/s eta=00:01:47                                
+11/18 [10:29:28] INFO     | >>  epoch=0 step=44/100 loss=0.5540   trainer.py:745
+                          loss_action=0.2754 loss_video=0.2785                  
+                          lr=6.42e-05 speed=0.53 step/s, 34.02                  
+                          samples/s eta=00:01:45                                
+11/18 [10:29:29] INFO     | >>  epoch=0 step=45/100 loss=0.4922   trainer.py:745
+                          loss_action=0.2494 loss_video=0.2428                  
+                          lr=6.27e-05 speed=0.53 step/s, 34.20                  
+                          samples/s eta=00:01:42                                
+11/18 [10:29:30] INFO     | >>  epoch=0 step=46/100 loss=0.4976   trainer.py:745
+                          loss_action=0.2593 loss_video=0.2382                  
+                          lr=6.11e-05 speed=0.54 step/s, 34.37                  
+                          samples/s eta=00:01:40                                
+11/18 [10:29:32] INFO     | >>  epoch=0 step=47/100 loss=0.5298   trainer.py:745
+                          loss_action=0.2859 loss_video=0.2438                  
+                          lr=5.95e-05 speed=0.54 step/s, 34.53                  
+                          samples/s eta=00:01:38                                
+11/18 [10:29:33] INFO     | >>  epoch=0 step=48/100 loss=0.4928   trainer.py:745
+                          loss_action=0.2907 loss_video=0.2021                  
+                          lr=5.78e-05 speed=0.54 step/s, 34.70                  
+                          samples/s eta=00:01:35                                
+11/18 [10:29:35] INFO     | >>  epoch=0 step=49/100 loss=0.5023   trainer.py:745
+                          loss_action=0.2713 loss_video=0.2309                  
+                          lr=5.62e-05 speed=0.54 step/s, 34.87                  
+                          samples/s eta=00:01:33                                
+11/18 [10:29:36] INFO     | >>  epoch=0 step=50/100 loss=0.4749   trainer.py:745
+                          loss_action=0.2287 loss_video=0.2463                  
+                          lr=5.46e-05 speed=0.55 step/s, 35.03                  
+                          samples/s eta=00:01:31                                
+11/18 [10:29:38] INFO     | >>  epoch=0 step=51/100 loss=0.4542   trainer.py:745
+                          loss_action=0.2320 loss_video=0.2221                  
+                          lr=5.30e-05 speed=0.55 step/s, 35.16                  
+                          samples/s eta=00:01:29                                
+11/18 [10:29:39] INFO     | >>  epoch=0 step=52/100 loss=0.4551   trainer.py:745
+                          loss_action=0.2124 loss_video=0.2427                  
+                          lr=5.13e-05 speed=0.55 step/s, 35.31                  
+                          samples/s eta=00:01:26                                
+11/18 [10:29:40] INFO     | >>  epoch=0 step=53/100 loss=0.4798   trainer.py:745
+                          loss_action=0.2275 loss_video=0.2523                  
+                          lr=4.97e-05 speed=0.55 step/s, 35.47                  
+                          samples/s eta=00:01:24                                
+11/18 [10:29:42] INFO     | >>  epoch=0 step=54/100 loss=0.4676   trainer.py:745
+                          loss_action=0.2146 loss_video=0.2530                  
+                          lr=4.80e-05 speed=0.56 step/s, 35.61                  
+                          samples/s eta=00:01:22                                
+11/18 [10:29:43] INFO     | >>  epoch=0 step=55/100 loss=0.4695   trainer.py:745
+                          loss_action=0.2315 loss_video=0.2379                  
+                          lr=4.64e-05 speed=0.56 step/s, 35.75                  
+                          samples/s eta=00:01:20                                
+11/18 [10:29:45] INFO     | >>  epoch=0 step=56/100 loss=0.4567   trainer.py:745
+                          loss_action=0.2289 loss_video=0.2278                  
+                          lr=4.48e-05 speed=0.56 step/s, 35.88                  
+                          samples/s eta=00:01:18                                
+11/18 [10:29:46] INFO     | >>  epoch=0 step=57/100 loss=0.4438   trainer.py:745
+                          loss_action=0.2107 loss_video=0.2331                  
+                          lr=4.32e-05 speed=0.56 step/s, 36.02                  
+                          samples/s eta=00:01:16                                
+11/18 [10:29:47] INFO     | >>  epoch=0 step=58/100 loss=0.5012   trainer.py:745
+                          loss_action=0.2319 loss_video=0.2693                  
+                          lr=4.15e-05 speed=0.56 step/s, 36.14                  
+                          samples/s eta=00:01:14                                
+11/18 [10:29:49] INFO     | >>  epoch=0 step=59/100 loss=0.4380   trainer.py:745
+                          loss_action=0.2233 loss_video=0.2147                  
+                          lr=3.99e-05 speed=0.57 step/s, 36.27                  
+                          samples/s eta=00:01:12                                
+11/18 [10:29:50] INFO     | >>  epoch=0 step=60/100 loss=0.4461   trainer.py:745
+                          loss_action=0.2268 loss_video=0.2193                  
+                          lr=3.83e-05 speed=0.57 step/s, 36.40                  
+                          samples/s eta=00:01:10                                
+11/18 [10:29:52] INFO     | >>  epoch=0 step=61/100 loss=0.4422   trainer.py:745
+                          loss_action=0.1968 loss_video=0.2454                  
+                          lr=3.68e-05 speed=0.57 step/s, 36.52                  
+                          samples/s eta=00:01:08                                
+11/18 [10:29:53] INFO     | >>  epoch=0 step=62/100 loss=0.4443   trainer.py:745
+                          loss_action=0.2110 loss_video=0.2334                  
+                          lr=3.52e-05 speed=0.57 step/s, 36.63                  
+                          samples/s eta=00:01:06                                
+11/18 [10:29:55] INFO     | >>  epoch=0 step=63/100 loss=0.4511   trainer.py:745
+                          loss_action=0.2130 loss_video=0.2381                  
+                          lr=3.37e-05 speed=0.57 step/s, 36.74                  
+                          samples/s eta=00:01:04                                
+11/18 [10:29:56] INFO     | >>  epoch=0 step=64/100 loss=0.4685   trainer.py:745
+                          loss_action=0.2395 loss_video=0.2289                  
+                          lr=3.21e-05 speed=0.58 step/s, 36.86                  
+                          samples/s eta=00:01:02                                
+11/18 [10:29:57] INFO     | >>  epoch=0 step=65/100 loss=0.4554   trainer.py:745
+                          loss_action=0.2193 loss_video=0.2361                  
+                          lr=3.06e-05 speed=0.58 step/s, 36.97                  
+                          samples/s eta=00:01:00                                
+11/18 [10:29:59] INFO     | >>  epoch=0 step=66/100 loss=0.4421   trainer.py:745
+                          loss_action=0.2061 loss_video=0.2360                  
+                          lr=2.91e-05 speed=0.58 step/s, 37.08                  
+                          samples/s eta=00:00:58                                
+11/18 [10:30:01] INFO     | >>  epoch=0 step=67/100 loss=0.4435   trainer.py:745
+                          loss_action=0.2206 loss_video=0.2229                  
+                          lr=2.77e-05 speed=0.58 step/s, 36.98                  
+                          samples/s eta=00:00:57                                
+11/18 [10:30:02] INFO     | >>  epoch=0 step=68/100 loss=0.4230   trainer.py:745
+                          loss_action=0.1995 loss_video=0.2236                  
+                          lr=2.62e-05 speed=0.58 step/s, 37.08                  
+                          samples/s eta=00:00:55                                
+11/18 [10:30:04] INFO     | >>  epoch=0 step=69/100 loss=0.4567   trainer.py:745
+                          loss_action=0.2632 loss_video=0.1935                  
+                          lr=2.48e-05 speed=0.58 step/s, 37.18                  
+                          samples/s eta=00:00:53                                
+11/18 [10:30:05] INFO     | >>  epoch=0 step=70/100 loss=0.4659   trainer.py:745
+                          loss_action=0.2326 loss_video=0.2333                  
+                          lr=2.34e-05 speed=0.58 step/s, 37.28                  
+                          samples/s eta=00:00:51                                
+11/18 [10:30:06] INFO     | >>  epoch=0 step=71/100 loss=0.4420   trainer.py:745
+                          loss_action=0.2037 loss_video=0.2383                  
+                          lr=2.21e-05 speed=0.58 step/s, 37.37                  
+                          samples/s eta=00:00:49                                
+11/18 [10:30:08] INFO     | >>  epoch=0 step=72/100 loss=0.3999   trainer.py:745
+                          loss_action=0.1923 loss_video=0.2077                  
+                          lr=2.07e-05 speed=0.59 step/s, 37.46                  
+                          samples/s eta=00:00:47                                
+11/18 [10:30:09] INFO     | >>  epoch=0 step=73/100 loss=0.3534   trainer.py:745
+                          loss_action=0.1853 loss_video=0.1681                  
+                          lr=1.95e-05 speed=0.59 step/s, 37.55                  
+                          samples/s eta=00:00:46                                
+11/18 [10:30:11] INFO     | >>  epoch=0 step=74/100 loss=0.4430   trainer.py:745
+                          loss_action=0.1912 loss_video=0.2518                  
+                          lr=1.82e-05 speed=0.59 step/s, 37.64                  
+                          samples/s eta=00:00:44                                
+11/18 [10:30:12] INFO     | >>  epoch=0 step=75/100 loss=0.4019   trainer.py:745
+                          loss_action=0.1798 loss_video=0.2221                  
+                          lr=1.70e-05 speed=0.59 step/s, 37.72                  
+                          samples/s eta=00:00:42                                
+11/18 [10:30:13] INFO     | >>  epoch=0 step=76/100 loss=0.4443   trainer.py:745
+                          loss_action=0.2166 loss_video=0.2277                  
+                          lr=1.58e-05 speed=0.59 step/s, 37.81                  
+                          samples/s eta=00:00:40                                
+11/18 [10:30:15] INFO     | >>  epoch=0 step=77/100 loss=0.4127   trainer.py:745
+                          loss_action=0.2074 loss_video=0.2053                  
+                          lr=1.46e-05 speed=0.59 step/s, 37.89                  
+                          samples/s eta=00:00:38                                
+11/18 [10:30:16] INFO     | >>  epoch=0 step=78/100 loss=0.4072   trainer.py:745
+                          loss_action=0.1907 loss_video=0.2165                  
+                          lr=1.35e-05 speed=0.59 step/s, 37.97                  
+                          samples/s eta=00:00:37                                
+11/18 [10:30:18] INFO     | >>  epoch=0 step=79/100 loss=0.3611   trainer.py:745
+                          loss_action=0.1703 loss_video=0.1908                  
+                          lr=1.25e-05 speed=0.59 step/s, 38.05                  
+                          samples/s eta=00:00:35                                
+11/18 [10:30:20] INFO     | >>  epoch=0 step=80/100 loss=0.4359   trainer.py:745
+                          loss_action=0.2391 loss_video=0.1968                  
+                          lr=1.14e-05 speed=0.59 step/s, 37.88                  
+                          samples/s eta=00:00:33                                
+11/18 [10:30:21] INFO     | >>  epoch=0 step=81/100 loss=0.3815   trainer.py:745
+                          loss_action=0.1879 loss_video=0.1937                  
+                          lr=1.05e-05 speed=0.59 step/s, 37.96                  
+                          samples/s eta=00:00:32                                
+11/18 [10:30:23] INFO     | >>  epoch=0 step=82/100 loss=0.3819   trainer.py:745
+                          loss_action=0.1734 loss_video=0.2085                  
+                          lr=9.51e-06 speed=0.59 step/s, 38.04                  
+                          samples/s eta=00:00:30                                
+11/18 [10:30:24] INFO     | >>  epoch=0 step=83/100 loss=0.3618   trainer.py:745
+                          loss_action=0.1723 loss_video=0.1894                  
+                          lr=8.62e-06 speed=0.60 step/s, 38.12                  
+                          samples/s eta=00:00:28                                
+11/18 [10:30:26] INFO     | >>  epoch=0 step=84/100 loss=0.3707   trainer.py:745
+                          loss_action=0.1791 loss_video=0.1916                  
+                          lr=7.77e-06 speed=0.60 step/s, 38.19                  
+                          samples/s eta=00:00:26                                
+11/18 [10:30:27] INFO     | >>  epoch=0 step=85/100 loss=0.4056   trainer.py:745
+                          loss_action=0.1755 loss_video=0.2301                  
+                          lr=6.97e-06 speed=0.60 step/s, 38.26                  
+                          samples/s eta=00:00:25                                
+11/18 [10:30:28] INFO     | >>  epoch=0 step=86/100 loss=0.3569   trainer.py:745
+                          loss_action=0.1701 loss_video=0.1868                  
+                          lr=6.21e-06 speed=0.60 step/s, 38.34                  
+                          samples/s eta=00:00:23                                
+11/18 [10:30:30] INFO     | >>  epoch=0 step=87/100 loss=0.3777   trainer.py:745
+                          loss_action=0.1805 loss_video=0.1971                  
+                          lr=5.50e-06 speed=0.60 step/s, 38.30                  
+                          samples/s eta=00:00:21                                
+11/18 [10:30:32] INFO     | >>  epoch=0 step=88/100 loss=0.3665   trainer.py:745
+                          loss_action=0.1716 loss_video=0.1949                  
+                          lr=4.85e-06 speed=0.60 step/s, 38.37                  
+                          samples/s eta=00:00:20                                
+11/18 [10:30:33] INFO     | >>  epoch=0 step=89/100 loss=0.4422   trainer.py:745
+                          loss_action=0.1786 loss_video=0.2636                  
+                          lr=4.24e-06 speed=0.60 step/s, 38.44                  
+                          samples/s eta=00:00:18                                
+11/18 [10:30:34] INFO     | >>  epoch=0 step=90/100 loss=0.3718   trainer.py:745
+                          loss_action=0.1921 loss_video=0.1797                  
+                          lr=3.68e-06 speed=0.60 step/s, 38.51                  
+                          samples/s eta=00:00:16                                
+11/18 [10:30:36] INFO     | >>  epoch=0 step=91/100 loss=0.3952   trainer.py:745
+                          loss_action=0.1708 loss_video=0.2244                  
+                          lr=3.18e-06 speed=0.60 step/s, 38.57                  
+                          samples/s eta=00:00:14                                
+11/18 [10:30:37] INFO     | >>  epoch=0 step=92/100 loss=0.3730   trainer.py:745
+                          loss_action=0.1947 loss_video=0.1783                  
+                          lr=2.72e-06 speed=0.60 step/s, 38.64                  
+                          samples/s eta=00:00:13                                
+11/18 [10:30:39] INFO     | >>  epoch=0 step=93/100 loss=0.3974   trainer.py:745
+                          loss_action=0.1773 loss_video=0.2201                  
+                          lr=2.32e-06 speed=0.60 step/s, 38.71                  
+                          samples/s eta=00:00:11                                
+11/18 [10:30:40] INFO     | >>  epoch=0 step=94/100 loss=0.3784   trainer.py:745
+                          loss_action=0.1847 loss_video=0.1937                  
+                          lr=1.97e-06 speed=0.61 step/s, 38.77                  
+                          samples/s eta=00:00:09                                
+11/18 [10:30:41] INFO     | >>  epoch=0 step=95/100 loss=0.4190   trainer.py:745
+                          loss_action=0.1940 loss_video=0.2250                  
+                          lr=1.68e-06 speed=0.61 step/s, 38.82                  
+                          samples/s eta=00:00:08                                
+11/18 [10:30:43] INFO     | >>  epoch=0 step=96/100 loss=0.4222   trainer.py:745
+                          loss_action=0.1846 loss_video=0.2376                  
+                          lr=1.43e-06 speed=0.61 step/s, 38.88                  
+                          samples/s eta=00:00:06                                
+11/18 [10:30:44] INFO     | >>  epoch=0 step=97/100 loss=0.4148   trainer.py:745
+                          loss_action=0.1985 loss_video=0.2163                  
+                          lr=1.24e-06 speed=0.61 step/s, 38.94                  
+                          samples/s eta=00:00:04                                
+11/18 [10:30:46] INFO     | >>  epoch=0 step=98/100 loss=0.3753   trainer.py:745
+                          loss_action=0.1801 loss_video=0.1952                  
+                          lr=1.11e-06 speed=0.61 step/s, 39.00                  
+                          samples/s eta=00:00:03                                
+11/18 [10:30:47] INFO     | >>  epoch=0 step=99/100 loss=0.3759   trainer.py:745
+                          loss_action=0.1667 loss_video=0.2092                  
+                          lr=1.03e-06 speed=0.61 step/s, 39.06                  
+                          samples/s eta=00:00:01                                
+11/18 [10:30:48] INFO     | >>  epoch=0 step=100/100 loss=0.4290  trainer.py:745
+                          loss_action=0.1968 loss_video=0.2321                  
+                          lr=1.00e-06 speed=0.61 step/s, 39.12                  
+                          samples/s eta=00:00:00                                
+{"valid": true, "phase": "formal", "warmup": 10, "steps": 90, "samples": 5760, "window_s": 130.8901006858796, "samples_per_s": 44.00638375107758, "s_per_optimizer_step": 1.4543344520653287, "ranks": [{"rank": 0, "seconds": 130.8901006858796, "measured_steps": 90, "samples": 720, "allocated": 44934854144, "reserved": 49822040064}, {"rank": 1, "seconds": 130.8900574799627, "measured_steps": 90, "samples": 720, "allocated": 44934854144, "reserved": 49822040064}, {"rank": 2, "seconds": 130.88826487585902, "measured_steps": 90, "samples": 720, "allocated": 44934854144, "reserved": 49822040064}, {"rank": 3, "seconds": 130.88946968317032, "measured_steps": 90, "samples": 720, "allocated": 44934903296, "reserved": 51327795200}, {"rank": 4, "seconds": 130.88944377098233, "measured_steps": 90, "samples": 720, "allocated": 44934854144, "reserved": 49822040064}, {"rank": 5, "seconds": 130.88985720742494, "measured_steps": 90, "samples": 720, "allocated": 44934854144, "reserved": 49822040064}, {"rank": 6, "seconds": 130.8895897353068, "measured_steps": 90, "samples": 720, "allocated": 44934854144, "reserved": 52833550336}, {"rank": 7, "seconds": 130.88994104415178, "measured_steps": 90, "samples": 720, "allocated": 44934903296, "reserved": 51327795200}], "scheduler_horizon": 100, "timing": "continuous monotonic window, includes batch wait/H2D/forward/backward/communication/update and normal official per-step logging; no added step barriers"}
